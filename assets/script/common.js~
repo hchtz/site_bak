@@ -221,7 +221,7 @@ function goTemplate(name) {
     $("#contentDiv").load(function () {
     		var self = $(this);
     		with($(this).get(0).contentWindow){
-    			//alert($(document.body).outerHeight())
+    			alert($(document.body).outerHeight())
 				self.attr("height",	$(document.body).outerHeight());    		
     		}
     });
