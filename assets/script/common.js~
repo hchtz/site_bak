@@ -220,9 +220,10 @@ function goTemplate(name) {
     $("#mainDiv").replaceWith(tempHtml);
     $("#contentDiv").load(function () {
     		var self = $(this);
-    		with($(this).get(0).contentWindow){
-    			alert($(document.body).outerHeight())
-				self.attr("height",	$(document.body).outerHeight());    		
+    		if(self){
+	    		with($(this).get(0).contentWindow){
+					if(self.attr)self.attr("height",	$(document.body).outerHeight());    		
+	    		}
     		}
     });
     if (html == '' || html == '#') {
@@ -332,11 +333,13 @@ $(function () {
         imgDD.append(html);
         ddSeti = setInterval(function () {
             ddJishu++;
-            $("#flashDD").find("dd").get(ddJishu).click();
-            if (ddJishu == (ddLen - 1)) {
-                ddJishu = -1;
-            }
-            ;
+            var flashDD = $("#flashDD");
+            if(flashDD.size()){
+	            flashDD.find("dd").get(ddJishu).click();
+	            if (ddJishu == (ddLen - 1)) {
+	                ddJishu = -1;
+	            }
+	         }
         }, ddTime);
     }
 );
