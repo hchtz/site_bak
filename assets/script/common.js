@@ -1,33 +1,5 @@
 var version= navigator.userAgent;
-/*
-if(version.indexOf('Mozilla')!=-1 && version.indexOf('Apple')!=-1 && version.indexOf('Chrome')!=-1 && version.indexOf('Safari')!=-1){
-	alert('本站不支持360浏览器访问，请更换其他浏览器！');
-	window.location = "IE.html";
-}
 
-//浏览器判断
-function Get_IE_Version() {
-    var v;
-    if (navigator.userAgent.indexOf("MSIE 6.0") > 0)//IE 6.0
-    {
-        v = 6;
-    }
-    else if (navigator.userAgent.indexOf("MSIE 7.0") > 0)//IE 7.0 
-    {
-        v = 7
-    }
-    else if (navigator.userAgent.indexOf("MSIE 8.0") > 0)//IE 8.0
-    {
-        v = 8;
-    }
-    return v;
-}
-
-if (Get_IE_Version() == '6') {
-	alert('本站不支持IE6浏览器访问，请更升级IE8浏览器！');
-    window.location = "IE.html";
-}
-*/
 function simplePreload() {
     var args = simplePreload.arguments;
     document.imageArray = new Array(args.length);
@@ -144,9 +116,9 @@ function goTemplate(name) {
     mainHtml += '          <span> ';
     for (var i = 0; i < shuju.dh.length; i++) {
         var item = shuju.dh[i];
-        mainHtml += '<span onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</span>';
+        mainHtml += '<a href="#" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</a>';
         if (i < (shuju.dh.length)) {
-            mainHtml += '&gt'
+            mainHtml += '&gt;&nbsp;&nbsp;&nbsp;'
         }
     }
     mainHtml += '</span>';
@@ -160,9 +132,9 @@ function goTemplate(name) {
     if (shuju.leftMenu) {
         for (var i = 0; i < shuju.leftMenu.length; i++) {
             var item = shuju.leftMenu[i];
-            mainHtml += '              <li style="cursor: pointer;text-align: center;" class="';
+            mainHtml += '              <li style="cursor: pointer;text-align: center;font-size:15px;font-weight:bold;" class="leftMenuHover ';
             if (item.name == name) {
-                mainHtml += 'hover';
+                mainHtml += 'hover2';
             }
             mainHtml += '" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</li>';
         }
@@ -240,10 +212,10 @@ $(function () {
         if (daohang_data) {
             var menu_parent = '',
                 item_parent = '';
-            var menu_parent_template = '<li id="{id}"><span style="display: block;height: 47px;line-height: 47px;" ';
+            var menu_parent_template = '<li id="{id}"><span style="display: block;height: 47px;line-height: 47px;font-size:14px;" ';
             menu_parent_template += 'onmouseover="showChild(this);" onmouseleave="hideChild(this);" onclick="goTemplateP(\'{name}\');">{name}</span></li>';
             var item_parent_template = '<li style="display: block;"><span style="display: block;height: 47px;line-height: 47px;" ';
-            item_parent_template += 'onmouseover="overThis(this);" onmouseleave="outThis(this);" onclick="goTemplate(\'{name}\');"><span style="height:45px;line-height:45px;overflow:hidden;font-size:12px; font-weight:bold;">{name}</span></span></li>';
+            item_parent_template += 'onmouseover="overThis(this);" onmouseleave="outThis(this);" onclick="goTemplate(\'{name}\');"><span style="height:45px;line-height:45px;overflow:hidden;font-size:14px; font-weight:bold;">{name}</span></span></li>';
             for (var i = 0; i < daohang_data.length; i++) {
                 var dd = daohang_data[i];
                 if (dd.name == '首页') {
