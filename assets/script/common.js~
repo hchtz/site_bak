@@ -63,35 +63,6 @@ function readCookie(name) {
     return cookieValue;
 }
 
-//iframe高度自适应
-function IFrameReSize(iframename) {
-    var pTar = document.getElementById(iframename);
-    if (pTar) { //ie
-        if (!+[1, ] && pTar.document && pTar.document.body.scrollHeight) {
-            //alert(pTar.document.body.scrollHeight);
-            pTar.height = pTar.document.body.scrollHeight;
-        } //ff
-        else
-        if (pTar.contentDocument && pTar.contentDocument.body.offsetHeight) {
-            pTar.height = pTar.contentDocument.body.offsetHeight;
-        }
-    }
-}
-//iframe宽度自适应
-function IFrameReSizeWidth(iframename) {
-    var pTar = document.getElementById(iframename);
-    if (pTar) { //ie
-        if (!+[1, ] && pTar.document && pTar.document.body.scrollWidth) {
-            //alert(pTar.document.body.scrollWidth);
-            pTar.width = pTar.document.body.scrollWidth;
-        }
-        else //ff
-        if (pTar.contentDocument && pTar.contentDocument.body.offsetWidth) {
-            pTar.width = pTar.contentDocument.body.offsetWidth;
-        }
-    }
-}
-
 /* template模板工具方法 */
 
 function nano(template, data) {
@@ -193,7 +164,7 @@ function goTemplate(name) {
             if (item.name == name) {
                 mainHtml += 'hover';
             }
-            mainHtml += '"><span onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</a></span>';
+            mainHtml += '" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</li>';
         }
     }
     mainHtml += '            </ul>';
@@ -203,7 +174,7 @@ function goTemplate(name) {
     mainHtml += '        <div class="CM_right" id="CM_right">';
     mainHtml += '          <div class="CMr_topimg"> <img src="{rightimg}"></div>';
     mainHtml += '          <div class="CMmain">';
-    mainHtml += '            　<iframe src="" scrolling="no" frameborder="0" id="contentDiv" width="100%" onload=\'IFrameReSize("contentDiv");\'></iframe>';
+    mainHtml += '            　<iframe src="" scrolling="no" frameborder="0" id="contentDiv" width="100%" height="300"></iframe>';
     mainHtml += '            <div class="CM_Cont" id="contentDiv2">';
     mainHtml += '					<!-- ';
     mainHtml += '					content：jquery  加载html后，直接append到这里。。。';
@@ -219,11 +190,15 @@ function goTemplate(name) {
     //替换掉页面内容，ok
     $("#mainDiv").replaceWith(tempHtml);
     $("#contentDiv").load(function () {
-    		var self = $(this);
-    		if(self){
-	    		with($(this).get(0).contentWindow){
-					if(self.attr)self.attr("height",	$(document.body).outerHeight());    		
-	    		}
+ 			function resetIframeSize(height){
+ 				with(top.window){
+ 					console.log($("#contentDiv"))
+ 					console.log(height)
+					$("#contentDiv").attr("height",height<300?300:height);
+				}
+ 			}
+    		with($(this).get(0).contentWindow){
+    			resetIframeSize($(document.body).outerHeight());    		
     		}
     });
     if (html == '' || html == '#') {
