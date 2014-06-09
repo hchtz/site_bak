@@ -364,7 +364,11 @@ function showFlashImg(n, name, img, i) {
 
     ddSeti = setInterval(function () {
         ddJishu++;
-        $("#flashDD").find("dd").get(ddJishu).click();
+        var flashDD = $("#flashDD");
+        if( flashDD){
+	         var c = flashDD.find("dd").get(ddJishu);
+	         if(c)c.click();
+	     }
         if (ddJishu == (ddLen - 1)) {
             ddJishu = -1;
         }
