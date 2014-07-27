@@ -42,7 +42,7 @@ var daohang_data = [{
 					rightimg : 'assets/images/right_Cont_img.jpg'
 				},
 				name : '投资者关系',
-				html : '#'
+				html : 'tzzgx.htm'
 			},{
 				img : {
 					topimg : 'assets/images/topimg.png',
