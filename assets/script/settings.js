@@ -20,7 +20,7 @@ var daohang_data = [{
 	}, {
 		id : 'ctl00_aboutLi',
 		/*id，随便起名字就行，*/
-		name : '关于恒川海234',
+		name : '关于恒川海',
 		html : '#',
 		/*#表示用户点击“关于恒川海”菜单时没有任何响应*/
 		items : [{
