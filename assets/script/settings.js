@@ -17,13 +17,6 @@ var daohang_data = [{
 		/*name表示的是菜单的名字*/
 		html : 'index.html',
 		items : []/*items中盛放的是顶级菜单下的第二级菜单，没有二级菜单时就这么写*/
-	},{
-		/*第一层大括号{}表示顶级菜单*/
-		id : 'mainPage2',
-		name : '首页',
-		/*name表示的是菜单的名字*/
-		html : 'index.html',
-		items : []/*items中盛放的是顶级菜单下的第二级菜单，没有二级菜单时就这么写*/
 	}, {
 		id : 'ctl00_aboutLi',
 		/*id，随便起名字就行，*/
