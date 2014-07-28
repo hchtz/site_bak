@@ -168,7 +168,9 @@ function goTemplate(name) {
 				}
  			}
     		with($(this).get(0).contentWindow){
-    			resetIframeSize($(document.body).outerHeight());    		
+				setTimeout(function(){
+					resetIframeSize($(document.body).outerHeight());    		
+				},200);
     		}
     });
     if (html == '' || html == '#') {
@@ -392,4 +394,6 @@ $(function () {
     html += '</li>';
     html += '</ul>';
     $("#footerDiv").append(html);
+	 
+	 
 });
