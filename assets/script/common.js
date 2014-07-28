@@ -161,15 +161,17 @@ function goTemplate(name) {
     var tempHtml = nano(mainHtml, img);
     //替换掉页面内容，ok
     $("#mainDiv").replaceWith(tempHtml);
-    $("#contentDiv").load(function () {
+	$("#contentDiv").load(function () {
  			function resetIframeSize(height){
  				with(top.window){
 					$("#contentDiv").attr("height",height<300?300:height);
 				}
  			}
     		with($(this).get(0).contentWindow){
-				setTimeout(function(){
-					resetIframeSize($(document.body).outerHeight());    		
+				var t = setTimeout(function(){
+					clearTimeout(t);
+					var h = $(document.body).outerHeight();
+					resetIframeSize(h);    		
 				},200);
     		}
     });
@@ -180,6 +182,7 @@ function goTemplate(name) {
         $("#contentDiv").attr('src', html);
     }
 }
+
 /*
  下面是:页面导航事件
  */
