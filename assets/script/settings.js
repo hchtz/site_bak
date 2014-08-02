@@ -108,27 +108,19 @@ var shouye_data = {
             /*首页大图配置*/
             name: '',
             /*标题，不会显示到页面上，不配置也可以*/
-            img: 'assets/images/shouye/flash/1.jpg' /*图片存储路径*/
+            img: 'assets/images/shouye/tu/1.jpg' /*图片存储路径*/
         },
         {
             name: '',
-            img: 'assets/images/shouye/flash/3.jpg'
+            img: 'assets/images/shouye/tu/3.jpg'
         },
         {
             name: 'sss',
-            img: 'assets/images/shouye/flash/2.jpg'
+            img: 'assets/images/shouye/tu/2.jpg'
         },
         {
             name: '',
-            img: 'assets/images/shouye/flash/4.jpg'
-        },
-        {
-            name: '',
-            img: 'assets/images/shouye/flash/5.jpg'
-        },
-        {
-            name: '',
-            img: 'assets/images/shouye/flash/6.jpg'
+            img: 'assets/images/shouye/tu/17.jpg'
         }
     ],
     imTop: {
