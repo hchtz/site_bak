@@ -31,9 +31,9 @@ var daohang_data = [{
 					leftimg : 'assets/images/leftimg.png',
 					rightimg : 'assets/images/right_Cont_img.jpg'
 				},
-				html : 'zxzc.htm',
+				html : 'gsgk.htm',
 				/*会word的办公室文员们，可以利用word，编辑文档，生成html，word有很强大的图文编辑功能额*/
-				name : '主席致辞' /*这里是菜单名称，注意额，每个大括号}前面都没有逗号，额！*/
+				name : '公司概况' /*这里是菜单名称，注意额，每个大括号}前面都没有逗号，额！*/
 			}, {
 				img : {
 					topimg : 'assets/images/topimg.png',
@@ -155,17 +155,17 @@ var shouye_data = {
 			/*标题，将会显示在图片上面，此标题可以与gotoo属性一致*/
 			img : 'assets/images/top_03.jpg',
 			/*自定义图片*/
-			gotoo : '主席致辞' /*指定daohang_data中的某一个name属性的值*/
+			gotoo : '公司概况' /*指定daohang_data中的某一个name属性的值*/
 		},
 		center : {
-			name : '公司概况',
+			name : '暂无',
 			img : 'assets/images/top_03.jpg',
-			gotoo : '公司概况'
+			gotoo : '暂无'
 		},
 		right : {
-			name : '主席致辞',
+			name : '暂无',
 			img : 'assets/images/top_03.jpg',
-			gotoo : '主席致辞'
+			gotoo : '暂无'
 		}
 	},
 	imBottom : {
