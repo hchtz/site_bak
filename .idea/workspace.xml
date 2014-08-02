@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0b1543-0287-4f29-b795-430ac8e142b7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/shouye/tu/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/shouye/tu/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/shouye/tu/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/shouye/tu/3.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="site.iws" />
@@ -52,7 +48,7 @@
       <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7160804" vertical-offset="2033" max-vertical-offset="3705">
+            <state vertical-scroll-proportion="0.8592965" vertical-offset="1976" max-vertical-offset="3705">
               <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
               <folding />
             </state>
@@ -366,7 +362,11 @@
       <created>1406996408189</created>
       <updated>1406996408189</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="首页图片修改">
+      <created>1406996477279</created>
+      <updated>1406996477279</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -433,7 +433,8 @@
     <MESSAGE value="添加bootstrap3" />
     <MESSAGE value="移动logo到asset" />
     <MESSAGE value="公司概况 第一版" />
-    <option name="LAST_COMMIT_MESSAGE" value="公司概况 第一版" />
+    <MESSAGE value="首页图片修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页图片修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -567,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7160804" vertical-offset="2033" max-vertical-offset="3705">
+        <state vertical-scroll-proportion="0.8592965" vertical-offset="1976" max-vertical-offset="3705">
           <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
           <folding />
         </state>
