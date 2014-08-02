@@ -1,4 +1,4 @@
-var version= navigator.userAgent;
+var version = navigator.userAgent;
 
 function simplePreload() {
     var args = simplePreload.arguments;
@@ -74,7 +74,7 @@ function goTemplate(name) {
     var img = {};
     var shuju =
     {
-        dh:[]
+        dh: []
     };
     //解析settings json配置对象
     var data = daohang_data;
@@ -84,8 +84,8 @@ function goTemplate(name) {
         var dh = []
         dh.push(
             {
-                name:d.name,
-                html:d.html
+                name: d.name,
+                html: d.html
             }
         );
         for (var k = 0; k < items.length; k++) {
@@ -93,8 +93,8 @@ function goTemplate(name) {
             if (item.name == name) {
                 dh.push(
                     {
-                        name:item.name,
-                        html:item.html
+                        name: item.name,
+                        html: item.html
                     }
                 );
                 shuju.dh = dh;
@@ -161,19 +161,11 @@ function goTemplate(name) {
     var tempHtml = nano(mainHtml, img);
     //替换掉页面内容，ok
     $("#mainDiv").replaceWith(tempHtml);
-	$("#contentDiv").load(function () {
- 			function resetIframeSize(height){
- 				with(top.window){
-					$("#contentDiv").attr("height",height<300?300:height);
-				}
- 			}
-    		with($(this).get(0).contentWindow){
-				var t = setTimeout(function(){
-					clearTimeout(t);
-					var h = $(document.body).outerHeight();
-					resetIframeSize(h);    		
-				},200);
-    		}
+    $("#contentDiv").load(function () {
+        with ($(this).get(0).contentWindow) {
+            var height = $(document.body).outerHeight() + 100;
+            $("#contentDiv", top.window.document).attr("height", height < 300 ? 300 : height);
+        }
     });
     if (html == '' || html == '#') {
         $("#contentDiv").attr('src', 'error.html');
@@ -261,8 +253,8 @@ $(function () {
         var imgDD = $("#flashDD");
         imgDiv.attr(
             {
-                "src":data[firstIndex].img,
-                "title":data[firstIndex].name
+                "src": data[firstIndex].img,
+                "title": data[firstIndex].name
             }
         );
         var html = '';
@@ -284,12 +276,12 @@ $(function () {
         ddSeti = setInterval(function () {
             ddJishu++;
             var flashDD = $("#flashDD");
-            if(flashDD.size()){
-	            flashDD.find("dd").get(ddJishu).click();
-	            if (ddJishu == (ddLen - 1)) {
-	                ddJishu = -1;
-	            }
-	         }
+            if (flashDD.size()) {
+                flashDD.find("dd").get(ddJishu).click();
+                if (ddJishu == (ddLen - 1)) {
+                    ddJishu = -1;
+                }
+            }
         }, ddTime);
     }
 );
@@ -303,8 +295,8 @@ function showFlashImg(n, name, img, i) {
     var imgDiv = $("#flashImg").fadeOut(888);
     imgDiv.attr(
         {
-            "src":img,
-            "title":name
+            "src": img,
+            "title": name
         }
     );
     imgDiv.fadeIn(1888);
@@ -315,10 +307,10 @@ function showFlashImg(n, name, img, i) {
     ddSeti = setInterval(function () {
         ddJishu++;
         var flashDD = $("#flashDD");
-        if( flashDD){
-	         var c = flashDD.find("dd").get(ddJishu);
-	         if(c)c.click();
-	     }
+        if (flashDD) {
+            var c = flashDD.find("dd").get(ddJishu);
+            if (c)c.click();
+        }
         if (ddJishu == (ddLen - 1)) {
             ddJishu = -1;
         }
@@ -397,6 +389,6 @@ $(function () {
     html += '</li>';
     html += '</ul>';
     $("#footerDiv").append(html);
-	 
-	 
+
+
 });
