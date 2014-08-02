@@ -22,7 +22,7 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: 'gsgk.html',
+                html: 'gsgk.htm',
                 name: '公司概况'
             },
             {
