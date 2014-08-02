@@ -144,7 +144,7 @@ function goTemplate(name) {
     mainHtml += '        </div>';
     mainHtml += '       ';
     mainHtml += '        <div class="CM_right" id="CM_right">';
-    mainHtml += '          <div class="CMr_topimg"> <img src="{rightimg}"></div>';
+    mainHtml += '          <div class="CMr_topimg"> <img style="width: 373px;height: 67;" src="{rightimg}"></div>';
     mainHtml += '          <div class="CMmain">';
     mainHtml += '            　<iframe src="" scrolling="no" frameborder="0" id="contentDiv" width="100%" height="300"></iframe>';
     mainHtml += '            <div class="CM_Cont" id="contentDiv2">';

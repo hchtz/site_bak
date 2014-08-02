@@ -19,21 +19,11 @@ var daohang_data = [
                 img: {
                     topimg: 'assets/images/topimg.png',
                     titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
+                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: 'gsgk.htm',
+                html: 'pages/gsgk.html',
                 name: '公司概况'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                name: '投资者关系',
-                html: 'tzzgx.htm'
             },
             {
                 img: {
