@@ -1,15 +1,4 @@
-/*
-注意事项（不予遵守，页面将会无法展示）
-1：每个}前都没有，
-2：除了name属性可以起中文名称，其余都必须为英文
-3：数字不可以作为名字的第一个字母
-4：请使用英文标点符号
-5：html属性如果没有对应的页面，则值必须为#
-6：系统暂时支持两级动态菜单，第二级菜单下再有items属性，则暂不予支持
-7：html属性的值不能是跨域url。比如：http://www.baidu.com这样的链接是不可以的，因为baidu.com是另一个域名
-7：word生成好的html页面必须放到根目录下（index.html文件存在的那个目录额），然后再运行sync.bat。
- */
-
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------下面是导航配置
 var daohang_data = [{
 		/*第一层大括号{}表示顶级菜单*/
 		id : 'mainPage',
@@ -69,18 +58,6 @@ var daohang_data = [{
 				name : '麦岛家园'
 			}, {
 				img : {
-					topimg : 'assets/images/topimg2.png',
-					/*最上部的图片*/
-					titleimg : 'assets/images/title.png',
-					/*上面导航 条上的图片*/
-					leftimg : 'assets/images/leftimg.png',
-					/*左侧导航栏上部的图片*/
-					rightimg : 'assets/images/right_Cont_img.jpg' /*右侧“内容区”上部的图片*/
-				},
-				html : 'gsgk.htm',
-				name : '公司概况'
-			}, {
-				img : {
 					topimg : 'assets/images/topimg.png',
 					titleimg : 'assets/images/title.png',
 					leftimg : 'assets/images/leftimg.png',
@@ -122,7 +99,7 @@ var daohang_data = [{
 		items : []
 	}
 ];
-
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------下面是首页配置
 var shouye_data = {
 	logo : 'assets/images/logo.png',
 	/*logo配置位置*/
