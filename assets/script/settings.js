@@ -59,7 +59,7 @@ var daohang_data = [
                 img: {
                     topimg: 'assets/images/topimg.png',
                     titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
+                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
                 name: '交响音乐会(新闻)',
