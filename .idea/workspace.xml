@@ -2,13 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0b1543-0287-4f29-b795-430ac8e142b7" name="Default" comment="交响音乐会">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuji_heying.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuji_ygfc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tuji_ymq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paizi.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paizi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/index.css" afterPath="$PROJECT_DIR$/assets/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/settings.js" afterPath="$PROJECT_DIR$/assets/script/settings.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0665.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0666.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0682.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0694.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0741.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/CSC_0775.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/CSC_0775.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0008.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0008.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0009.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0009.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0010.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0010.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0011.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0011.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0012.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0012.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0013.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0013.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0014.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0014.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0015.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0015.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0016.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0016.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0017.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0017.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0018.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0018.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0019.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/shude/DSC_0019.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0657.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0657.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0663.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0663.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0664.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0664.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0667.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0667.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0668.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0668.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0669.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0669.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0670.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0670.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0671.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0671.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0672.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0672.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0673.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0673.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0674.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0674.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0676.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0676.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0677.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0677.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0680.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0680.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0681.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0681.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0683.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0683.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0684.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0684.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0685.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0685.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0686.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0686.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0687.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0687.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0688.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0688.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0689.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0689.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0690.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0690.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0691.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0691.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0692.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0692.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0693.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0693.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0695.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0695.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0696.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0696.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0697.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0697.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0698.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0698.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0699.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0699.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0700.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0700.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0701.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0701.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0702.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0702.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0704.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0704.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0705.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0705.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0706.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0706.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0707.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0707.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0708.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0708.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0709.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0709.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0710.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0710.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0711.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0711.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0712.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0712.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0713.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0713.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0714.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0714.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0715.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0715.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0716.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0716.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0717.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0717.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0718.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0718.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0719.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0719.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0720.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0720.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0721.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0721.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0722.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0722.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0725.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0725.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0726.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0726.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0727.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0727.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0728.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0728.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0730.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0730.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0731.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0731.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0732.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0732.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0733.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0733.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0734.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0734.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0735.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0735.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0736.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/shude/DSC_0736.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0737.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0737.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0738.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0738.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0739.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/ymq/DSC_0739.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0742.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0742.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0744.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0744.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0745.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0745.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0748.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/heying/DSC_0748.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/gcwx.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/gcwx.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/monitor.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/monitor.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuji_ymq.html" afterPath="$PROJECT_DIR$/tuji_ymq.html" />
     </list>
     <ignored path="site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,121 +115,7 @@
     <favorites_list name="site" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="4465">
-              <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="8987" max-vertical-offset="37525">
-              <caret line="372" column="16" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuji_heying.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tuji_heying.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5641953" vertical-offset="68" max-vertical-offset="665">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuji_ymq.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tuji_ymq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.416666" vertical-offset="456" max-vertical-offset="1045">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tuji_ygfc.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tuji_ygfc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.083333" vertical-offset="0" max-vertical-offset="627">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="551">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gsxw_wumai.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gsxw_wumai.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-38.0" vertical-offset="19" max-vertical-offset="1349">
-              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gsxw_music.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gsxw_music.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.833333" vertical-offset="361" max-vertical-offset="950">
-              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="7600">
-              <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
-              <folding>
-                <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="7060:7138" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="7369:7382" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="8300:8353" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="8526:8540" placeholder="..." />
-                <marker date="1406983352875" expanded="false" signature="13760:13805" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -179,6 +150,7 @@
         <option value="$PROJECT_DIR$/tuji-ymq.html" />
         <option value="$PROJECT_DIR$/assets/script/settings.js" />
         <option value="$PROJECT_DIR$/tuji_heying.html" />
+        <option value="$PROJECT_DIR$/tuji_ymq.html" />
       </list>
     </option>
   </component>
@@ -230,20 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,10 +363,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -513,15 +471,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="7600">
           <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
           <folding>
-            <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7060:7138" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7369:7382" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8300:8353" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8526:8540" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="13760:13805" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -563,15 +521,15 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="7600">
           <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
           <folding>
-            <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7060:7138" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7369:7382" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8300:8353" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8526:8540" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="13760:13805" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -637,24 +595,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="7600">
-          <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
-          <folding>
-            <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7060:7138" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7369:7382" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8300:8353" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8526:8540" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="13760:13805" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gsgk.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16977929" vertical-offset="223" max-vertical-offset="950">
@@ -695,26 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="4465">
-          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="8987" max-vertical-offset="37525">
           <caret line="372" column="16" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tuji_ymq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.416666" vertical-offset="456" max-vertical-offset="1045">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -735,11 +659,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tuji_ymq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3738977" vertical-offset="0" max-vertical-offset="1007">
+          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tuji_heying.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5641953" vertical-offset="68" max-vertical-offset="665">
+        <state vertical-scroll-proportion="0.66086954" vertical-offset="0" max-vertical-offset="665">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8091354" vertical-offset="625" max-vertical-offset="4465">
+          <caret line="59" column="42" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80587274" vertical-offset="2394" max-vertical-offset="7600">
+          <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+          <folding>
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
