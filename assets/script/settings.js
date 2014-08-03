@@ -169,7 +169,7 @@ var daohang_data = [
         items: [
             {
                 img: {
-                    topimg: 'assets/images/topimg.png',
+                    topimg: 'assets/images/pages/hbhg/topbar.png',
                     titleimg: 'assets/images/title.png',
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
