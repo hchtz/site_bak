@@ -211,7 +211,7 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: '#',
+                html: 'rlzy_rcln.html',
                 name: '人才理念'
             },
             {
@@ -282,19 +282,19 @@ var shouye_data = {
         /*最后一行图片和链接配置*/
         one: {
             img: 'assets/images/index_01.jpg',
-            gotoo: '公司概况'
+            gotoo: '#'
         },
         two: {
             img: 'assets/images/index_02.jpg',
-            gotoo: '主席致辞'
+            gotoo: '人才理念'
         },
         three: {
             img: 'assets/images/index_03.jpg',
-            gotoo: ''
+            gotoo: '#'
         },
         four: {
             img: 'assets/images/index_04.jpg',
-            gotoo: ''
+            gotoo: '#'
         }
     },
     fdgg: {

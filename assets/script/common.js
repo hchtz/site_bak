@@ -60,10 +60,11 @@ function goTemplateP(name) {
             html = d.html;
         }
     }
+//    alert(html);
     if (html == '' || html == '#') {
-        return;
-    }
-    else {
+//        window.location.reLoad();
+        return false;
+    } else {
         $("#mainDiv").load(html);
     }
 }
@@ -71,6 +72,7 @@ function goTemplateP(name) {
 /* 子菜单的点击事件：生成html根据模板 */
 function goTemplate(name) {
     var html = '#';
+
     var img = {};
     var shuju =
     {
@@ -81,7 +83,7 @@ function goTemplate(name) {
     for (var i = 0; i < data.length; i++) {
         var d = data[i];
         var items = d.items;
-        var dh = []
+        var dh = [];
         dh.push(
             {
                 name: d.name,
@@ -105,72 +107,75 @@ function goTemplate(name) {
         }
     }
     //根据模板，生成html
-    var mainHtml = '<div id="mainDiv"><div class="Topimg"> <img src="{topimg}"> </div>';
-    mainHtml += '<div class="mainbj">';
-    mainHtml += '  <div class="mian round1">';
-    mainHtml += '    <div class="mian2">';
-    mainHtml += '      <!--导航-->';
-    mainHtml += '      <div class="Topurl">';
-    mainHtml += '        <h3> <img src="{titleimg}"></h3>';
-    mainHtml += '        <ul>';
-    mainHtml += '          <span> ';
-    for (var i = 0; i < shuju.dh.length; i++) {
-        var item = shuju.dh[i];
-        mainHtml += '<a href="#" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</a>';
-        if (i < (shuju.dh.length)) {
-            mainHtml += '&gt;&nbsp;&nbsp;&nbsp;'
-        }
-    }
-    mainHtml += '</span>';
-    mainHtml += '        </ul>';
-    mainHtml += '      </div>';
-    mainHtml += '      <div class="C_min" id="C_min">';
-    mainHtml += '        <div class="CM_left" id="CM_left">';
-    mainHtml += '          <div class="CM_Topimg"> <img src="{leftimg}"></div>';
-    mainHtml += '          <div class="CM_meun">';
-    mainHtml += '            <ul>';
-    if (shuju.leftMenu) {
-        for (var i = 0; i < shuju.leftMenu.length; i++) {
-            var item = shuju.leftMenu[i];
-            mainHtml += '              <li style="cursor: pointer;text-align: center;font-size:15px;font-weight:bold;" class="leftMenuHover ';
-            if (item.name == name) {
-                mainHtml += 'hover2';
-            }
-            mainHtml += '" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</li>';
-        }
-    }
-    mainHtml += '            </ul>';
-    mainHtml += '          </div>';
-    mainHtml += '        </div>';
-    mainHtml += '       ';
-    mainHtml += '        <div class="CM_right" id="CM_right">';
-    mainHtml += '          <div class="CMr_topimg"> <img style="width: 373px;height: 67;" src="{rightimg}"></div>';
-    mainHtml += '          <div class="CMmain">';
-    mainHtml += '            　<iframe src="" scrolling="no" frameborder="0" id="contentDiv" width="100%" height="300"></iframe>';
-    mainHtml += '            <div class="CM_Cont" id="contentDiv2">';
-    mainHtml += '					<!-- ';
-    mainHtml += '					content：jquery  加载html后，直接append到这里。。。';
-    mainHtml += '					-->';
-    mainHtml += '            </div>';
-    mainHtml += '          </div>';
-    mainHtml += '        </div>';
-    mainHtml += '        <div class="clear1"></div>';
-    mainHtml += '      </div>';
-    mainHtml += '    </div></div>';
-    //根据模板生成页面
-    var tempHtml = nano(mainHtml, img);
-    //替换掉页面内容，ok
-    $("#mainDiv").replaceWith(tempHtml);
-    $("#contentDiv").load(function () {
-        with ($(this).get(0).contentWindow) {
-            var height = $(document.body).outerHeight() + 100;
-            $("#contentDiv", top.window.document).attr("height", height < 600 ? 600 : height);
-        }
-    });
     if (html == '' || html == '#') {
-        $("#contentDiv").attr('src', 'error.html');
+//        window.location.go(-1);
+//        $("#contentDiv").attr('src', 'error.html');
+        return false;
     }
     else {
+        var mainHtml = '<div id="mainDiv"><div class="Topimg"> <img src="{topimg}"> </div>';
+        mainHtml += '<div class="mainbj">';
+        mainHtml += '  <div class="mian round1">';
+        mainHtml += '    <div class="mian2">';
+        mainHtml += '      <!--导航-->';
+        mainHtml += '      <div class="Topurl">';
+        mainHtml += '        <h3> <img src="{titleimg}"></h3>';
+        mainHtml += '        <ul>';
+        mainHtml += '          <span> ';
+        for (var i = 0; i < shuju.dh.length; i++) {
+            var item = shuju.dh[i];
+            mainHtml += '<a href="#" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</a>';
+            if (i < (shuju.dh.length)) {
+                mainHtml += '&gt;&nbsp;&nbsp;&nbsp;'
+            }
+        }
+        mainHtml += '</span>';
+        mainHtml += '        </ul>';
+        mainHtml += '      </div>';
+        mainHtml += '      <div class="C_min" id="C_min">';
+        mainHtml += '        <div class="CM_left" id="CM_left">';
+        mainHtml += '          <div class="CM_Topimg"> <img src="{leftimg}"></div>';
+        mainHtml += '          <div class="CM_meun">';
+        mainHtml += '            <ul>';
+        if (shuju.leftMenu) {
+            for (var i = 0; i < shuju.leftMenu.length; i++) {
+                var item = shuju.leftMenu[i];
+                mainHtml += '              <li style="cursor: pointer;text-align: center;font-size:15px;font-weight:bold;" class="leftMenuHover ';
+                if (item.name == name) {
+                    mainHtml += 'hover2';
+                }
+                mainHtml += '" onclick="goTemplate(\'' + item.name + '\');">' + item.name + '</li>';
+            }
+        }
+        mainHtml += '            </ul>';
+        mainHtml += '          </div>';
+        mainHtml += '        </div>';
+        mainHtml += '       ';
+        mainHtml += '        <div class="CM_right" id="CM_right">';
+        mainHtml += '          <div class="CMr_topimg"> <img style="width: 373px;height: 67;" src="{rightimg}"></div>';
+        mainHtml += '          <div class="CMmain">';
+        mainHtml += '            　<iframe src="" scrolling="no" frameborder="0" id="contentDiv" width="100%" height="300"></iframe>';
+        mainHtml += '            <div class="CM_Cont" id="contentDiv2">';
+        mainHtml += '					<!-- ';
+        mainHtml += '					content：jquery  加载html后，直接append到这里。。。';
+        mainHtml += '					-->';
+        mainHtml += '            </div>';
+        mainHtml += '          </div>';
+        mainHtml += '        </div>';
+        mainHtml += '        <div class="clear1"></div>';
+        mainHtml += '      </div>';
+        mainHtml += '    </div></div>';
+        //根据模板生成页面
+        var tempHtml = nano(mainHtml, img);
+        //替换掉页面内容，ok
+        $("#mainDiv").replaceWith(tempHtml);
+        $("#contentDiv").load(function () {
+            with ($(this).get(0).contentWindow) {
+                var height = $(document.body).outerHeight() + 100;
+                $("#contentDiv", top.window.document).attr("height", height < 600 ? 600 : height);
+            }
+        });
+
         $("#contentDiv").attr('src', html);
     }
 }
