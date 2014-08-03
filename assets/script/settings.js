@@ -241,20 +241,20 @@ var shouye_data = {
     flash: [
         {
             /*首页大图配置*/
-            name: '',
+            name: '牛肉面餐馆，很火爆，食客屋里装不下，都在门前支起了帐篷',
             /*标题，不会显示到页面上，不配置也可以*/
             img: 'assets/images/shouye/tu/1.jpg' /*图片存储路径*/
         },
         {
-            name: '',
+            name: '平娃三宝，最火爆的餐馆',
             img: 'assets/images/shouye/tu/3.jpg'
         },
         {
-            name: 'sss',
+            name: '提示文字，有待确认',
             img: 'assets/images/shouye/tu/2.jpg'
         },
         {
-            name: '',
+            name: '链家地产来了',
             img: 'assets/images/shouye/tu/17.jpg'
         }
     ],
@@ -263,13 +263,13 @@ var shouye_data = {
         left: {
             name: '麦岛广场',
             /*标题，将会显示在图片上面，此标题可以与gotoo属性一致*/
-            img: 'assets/images/top_03.jpg',
+            img: 'assets/images/shouye/project/mdgc.jpg',
             /*自定义图片*/
             gotoo: '麦岛广场简介' /*指定daohang_data中的某一个name属性的值*/
         },
         center: {
             name: '富春江置业',
-            img: 'assets/images/top_03.jpg',
+            img: 'assets/images/shouye/project/fcjzy.jpg',
             gotoo: '富春江置业简介'
         },
         right: {
