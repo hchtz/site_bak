@@ -32,8 +32,18 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                name: '公司新闻',
-                html: '#'
+                name: '交响音乐会(新闻)',
+                html: 'gsxw_music.html'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                name: '抵制雾霾行动（新闻）',
+                html: 'gsxw_wumai.html'
             }
         ]
     },

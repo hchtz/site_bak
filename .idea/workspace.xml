@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0b1543-0287-4f29-b795-430ac8e142b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gsgk.html" afterPath="$PROJECT_DIR$/gsgk.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.html" afterPath="$PROJECT_DIR$/template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gsxw_music.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gsxw_wumai.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/settings.js" afterPath="$PROJECT_DIR$/assets/script/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="site.iws" />
@@ -27,52 +28,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="19.0" vertical-offset="646" max-vertical-offset="1596">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gsgk.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gsgk.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83870965" vertical-offset="304" max-vertical-offset="950">
-              <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2318" max-vertical-offset="3705">
-              <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.411093" vertical-offset="527" max-vertical-offset="3895">
+              <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right_Cont_img.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/images/right_Cont_img.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="gsxw_wumai.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gsxw_wumai.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.291667" vertical-offset="0" max-vertical-offset="551">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gsxw_music.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gsxw_music.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.791666" vertical-offset="133" max-vertical-offset="950">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/script/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="7600">
-              <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="7600">
+              <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
               <folding>
-                <marker date="1406983352875" expanded="true" signature="4539:4563" placeholder="..." />
+                <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
                 <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
                 <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
                 <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
@@ -109,10 +108,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/assets/script/common.js" />
         <option value="$PROJECT_DIR$/pages/gsgk.html" />
-        <option value="$PROJECT_DIR$/assets/script/settings.js" />
         <option value="$PROJECT_DIR$/temp" />
         <option value="$PROJECT_DIR$/gsgk.html" />
         <option value="$PROJECT_DIR$/template.html" />
+        <option value="$PROJECT_DIR$/gsxw.html" />
+        <option value="$PROJECT_DIR$/assets/script/settings.js" />
       </list>
     </option>
   </component>
@@ -198,6 +198,9 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -305,7 +308,11 @@
       <created>1407032341658</created>
       <updated>1407032341658</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="兼容ie8">
+      <created>1407032472994</created>
+      <updated>1407032472994</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,6 +400,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="722">
           <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -416,7 +424,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="7600">
           <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
           <folding>
-            <marker date="1406983352875" expanded="true" signature="4539:4563" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
             <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
             <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
             <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
@@ -442,6 +450,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="722">
           <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -465,7 +474,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="7600">
           <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
           <folding>
-            <marker date="1406983352875" expanded="true" signature="4539:4563" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
             <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
             <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
             <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
@@ -513,48 +522,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/right_Cont_img.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1868" max-vertical-offset="7600">
-          <caret line="147" column="49" selection-start-line="147" selection-start-column="49" selection-end-line="147" selection-end-column="49" />
-          <folding>
-            <marker date="1406983352875" expanded="true" signature="4539:4563" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7060:7138" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="7369:7382" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8300:8353" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="8526:8540" placeholder="..." />
-            <marker date="1406983352875" expanded="false" signature="13760:13805" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/images/pages/gsgk/logo.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2318" max-vertical-offset="3705">
-          <caret line="126" column="14" selection-start-line="126" selection-start-column="14" selection-end-line="126" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="19.0" vertical-offset="646" max-vertical-offset="1596">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/temp">
@@ -573,13 +543,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7741935" vertical-offset="646" max-vertical-offset="1596">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/right_Cont_img.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="7600">
+          <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+          <folding>
+            <marker date="1406983352875" expanded="false" signature="4539:4563" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="6562:6623" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="6835:6850" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="6865:6911" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="7060:7138" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="7369:7382" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="8300:8353" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="8526:8540" placeholder="..." />
+            <marker date="1406983352875" expanded="false" signature="13760:13805" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gsgk.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83870965" vertical-offset="304" max-vertical-offset="950">
-          <caret line="42" column="44" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.16977929" vertical-offset="223" max-vertical-offset="950">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
           <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gsxw_music.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.791666" vertical-offset="133" max-vertical-offset="950">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gsxw_wumai.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.291667" vertical-offset="0" max-vertical-offset="551">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.411093" vertical-offset="527" max-vertical-offset="3895">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
