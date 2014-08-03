@@ -79,7 +79,7 @@ var daohang_data = [
     },
     {
         id: 'ctl00_businessLi',
-        name: '公司业务',
+        name: '青岛麦岛广场',
         html: '#',
         items: [
             {
@@ -90,7 +90,7 @@ var daohang_data = [
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
                 html: '#',
-                name: '麦岛家园'
+                name: '简介'
             },
             {
                 img: {
@@ -100,7 +100,91 @@ var daohang_data = [
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
                 html: '#',
-                name: '潍坊房地产'
+                name: '门店租赁1'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '门店租赁2'
+            }
+        ]
+    },
+    {
+        id: 'ctl00_businessLi2',
+        name: '富春江',
+        html: '#',
+        items: [
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '简介'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '物业1'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '物业2'
+            }
+        ]
+    },
+    {
+        id: 'ctl00_businessLi3',
+        name: '海滨化工',
+        html: '#',
+        items: [
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '简介'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '业务1'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '业务2'
             }
         ]
     },
