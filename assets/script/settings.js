@@ -250,7 +250,7 @@ var shouye_data = {
             img: 'assets/images/shouye/tu/3.jpg'
         },
         {
-            name: '提示文字，有待确认',
+            name: '民以食为天，餐饮行业的槛是最低的',
             img: 'assets/images/shouye/tu/2.jpg'
         },
         {
