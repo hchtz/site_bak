@@ -261,21 +261,21 @@ var shouye_data = {
     imTop: {
         /*倒数第二行图片和链接配置*/
         left: {
-            name: '麦岛家园',
+            name: '麦岛广场',
             /*标题，将会显示在图片上面，此标题可以与gotoo属性一致*/
             img: 'assets/images/top_03.jpg',
             /*自定义图片*/
-            gotoo: '公司概况' /*指定daohang_data中的某一个name属性的值*/
+            gotoo: '麦岛广场' /*指定daohang_data中的某一个name属性的值*/
         },
         center: {
-            name: '暂无',
+            name: '富春江置业',
             img: 'assets/images/top_03.jpg',
-            gotoo: '暂无'
+            gotoo: '富春江置业'
         },
         right: {
-            name: '暂无',
+            name: '海滨化工',
             img: 'assets/images/top_03.jpg',
-            gotoo: '暂无'
+            gotoo: '海滨化工'
         }
     },
     imBottom: {
