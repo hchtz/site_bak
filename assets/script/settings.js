@@ -246,15 +246,11 @@ var shouye_data = {
             img: 'assets/images/shouye/tu/1.jpg' /*图片存储路径*/
         },
         {
-            name: '平娃三宝，最火爆的餐馆',
-            img: 'assets/images/shouye/tu/3.jpg'
-        },
-        {
             name: '民以食为天，餐饮行业的槛是最低的，资金回收也是最快的',
             img: 'assets/images/shouye/tu/2.jpg'
         },
         {
-            name: '',
+            name: '平娃三宝，最火爆的餐馆',
             img: 'assets/images/shouye/tu/3.jpg'
         },
         {
