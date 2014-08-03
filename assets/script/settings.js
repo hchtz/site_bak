@@ -148,7 +148,7 @@ var daohang_data = [
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
                 html: '#',
-                name: '物业1'
+                name: '川化物业子公司'
             },
             {
                 img: {
@@ -274,7 +274,7 @@ var shouye_data = {
         },
         right: {
             name: '海滨化工',
-            img: 'assets/images/top_03.jpg',
+            img: 'assets/images/shouye/project/schbhg.jpg',
             gotoo: '海滨化工简介'
         }
     },
