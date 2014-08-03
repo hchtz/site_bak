@@ -29,6 +29,36 @@ var daohang_data = [
                 img: {
                     topimg: 'assets/images/topimg.png',
                     titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'tuji_ygfc.html',
+                name: '员工风采（图集）'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'tuji_ymq.html',
+                name: '羽毛球比赛（图集）'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'tuji_heying.html',
+                name: '团队合影（图集）'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
@@ -39,7 +69,7 @@ var daohang_data = [
                 img: {
                     topimg: 'assets/images/topimg.png',
                     titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
+                    leftimg: 'assets/images/pages/gsxw/dzwm/paizi.jpg',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
                 name: '抵制雾霾行动（新闻）',
