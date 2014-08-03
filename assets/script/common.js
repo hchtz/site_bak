@@ -164,7 +164,7 @@ function goTemplate(name) {
     $("#contentDiv").load(function () {
         with ($(this).get(0).contentWindow) {
             var height = $(document.body).outerHeight() + 100;
-            $("#contentDiv", top.window.document).attr("height", height < 300 ? 300 : height);
+            $("#contentDiv", top.window.document).attr("height", height < 600 ? 600 : height);
         }
     });
     if (html == '' || html == '#') {
