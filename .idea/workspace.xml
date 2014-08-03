@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0b1543-0287-4f29-b795-430ac8e142b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/settings.js" afterPath="$PROJECT_DIR$/assets/script/settings.js" />
     </list>
     <list id="bac0328d-b6ff-4063-b624-33747b7b4f78" name="New changelist" comment="" />
     <ignored path="site.iws" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34094617" vertical-offset="3059" max-vertical-offset="5985">
-              <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.18597063" vertical-offset="3059" max-vertical-offset="5947">
+              <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
               <folding>
                 <element signature="e#204#391#0" expanded="false" />
                 <element signature="e#397#2898#0" expanded="false" />
@@ -123,16 +123,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -703,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34094617" vertical-offset="3059" max-vertical-offset="5985">
-          <caret line="247" column="0" selection-start-line="247" selection-start-column="0" selection-end-line="247" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18597063" vertical-offset="3059" max-vertical-offset="5947">
+          <caret line="242" column="0" selection-start-line="242" selection-start-column="0" selection-end-line="242" selection-end-column="0" />
           <folding>
             <element signature="e#204#391#0" expanded="false" />
             <element signature="e#397#2898#0" expanded="false" />

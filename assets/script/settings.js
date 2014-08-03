@@ -240,9 +240,7 @@ var shouye_data = {
     /*logo配置位置*/
     flash: [
         {
-            /*首页大图配置*/
             name: '牛肉面餐馆，很火爆，食客屋里装不下，都在门前支起了帐篷',
-            /*标题，不会显示到页面上，不配置也可以*/
             img: 'assets/images/shouye/tu/1.jpg' /*图片存储路径*/
         },
         {
