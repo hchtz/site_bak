@@ -110,7 +110,7 @@ function goTemplate(name) {
     if (html == '' || html == '#') {
 //        window.location.go(-1);
 //        $("#contentDiv").attr('src', 'error.html');
-        return false;
+        return ;
     }
     else {
         var mainHtml = '<div id="mainDiv"><div class="Topimg"> <img src="{topimg}"> </div>';
