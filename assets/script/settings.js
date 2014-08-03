@@ -78,7 +78,7 @@ var daohang_data = [
         ]
     },
     {
-        id: 'ctl00_businessLi',
+        id: 'ctl00_businessLi1',
         name: '麦岛广场',
         html: '#',
         items: [
@@ -89,8 +89,8 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: '#',
-                name: '简介'
+                html: 'mdgc_desc.html',
+                name: '麦岛广场简介'
             },
             {
                 img: {
@@ -137,8 +137,8 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: '#',
-                name: '简介'
+                html: 'fcjzy_desc.html',
+                name: '富春江置业简介'
             },
             {
                 img: {
@@ -174,8 +174,8 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: '#',
-                name: '简介'
+                html: 'schbhg_desc.html',
+                name: '海滨化工简介'
             },
             {
                 img: {
@@ -265,17 +265,17 @@ var shouye_data = {
             /*标题，将会显示在图片上面，此标题可以与gotoo属性一致*/
             img: 'assets/images/top_03.jpg',
             /*自定义图片*/
-            gotoo: '麦岛广场' /*指定daohang_data中的某一个name属性的值*/
+            gotoo: '麦岛广场简介' /*指定daohang_data中的某一个name属性的值*/
         },
         center: {
             name: '富春江置业',
             img: 'assets/images/top_03.jpg',
-            gotoo: '富春江置业'
+            gotoo: '富春江置业简介'
         },
         right: {
             name: '海滨化工',
             img: 'assets/images/top_03.jpg',
-            gotoo: '海滨化工'
+            gotoo: '海滨化工简介'
         }
     },
     imBottom: {
