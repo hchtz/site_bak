@@ -112,6 +112,17 @@ var daohang_data = [
                 html: '#',
                 name: '门店租赁2'
             }
+            ,
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: '#',
+                name: '市场招租'
+            }
         ]
     },
     {
