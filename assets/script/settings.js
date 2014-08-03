@@ -254,8 +254,72 @@ var shouye_data = {
             img: 'assets/images/shouye/tu/2.jpg'
         },
         {
-            name: '链家地产来了',
+            name: '',
+            img: 'assets/images/shouye/tu/3.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/4.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/5.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/6.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/7.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/8.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/9.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/10.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/11.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/12.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/13.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/14.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/15.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/16.jpg'
+        },
+        {
+            name: '',
             img: 'assets/images/shouye/tu/17.jpg'
+        },
+        {
+            name: '',
+            img: 'assets/images/shouye/tu/18.jpg'
+        },
+        {
+            name: '链家地产来了',
+            img: 'assets/images/shouye/tu/19.jpg'
         }
     ],
     imTop: {
