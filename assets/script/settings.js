@@ -79,7 +79,7 @@ var daohang_data = [
     },
     {
         id: 'ctl00_businessLi',
-        name: '青岛麦岛广场',
+        name: '麦岛广场',
         html: '#',
         items: [
             {
