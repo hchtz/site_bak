@@ -91,37 +91,6 @@ var daohang_data = [
                 },
                 html: 'mdgc_desc.html',
                 name: '麦岛广场简介'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: '#',
-                name: '门店租赁1'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: '#',
-                name: '门店租赁2'
-            }
-            ,
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: '#',
-                name: '市场招租'
             }
         ]
     },
@@ -149,16 +118,6 @@ var daohang_data = [
                 },
                 html: '#',
                 name: '川化物业子公司'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: '#',
-                name: '物业2'
             }
         ]
     },
@@ -176,26 +135,6 @@ var daohang_data = [
                 },
                 html: 'schbhg_desc.html',
                 name: '海滨化工简介'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: '#',
-                name: '业务1'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: '#',
-                name: '业务2'
             }
         ]
     },
