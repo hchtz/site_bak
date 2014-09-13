@@ -368,7 +368,7 @@ $(function () {
     html += '<!--漂浮广告 strat-->';
     html += '<style type="text/css">';
     html += '.duilian { position: fixed; /*border: 1px solid #336699; background-color: #EEEEE2;*/ z-index: 999999999; width: 163px; height: 192px; top:93px; }';
-    html += '#LeftDiv { left: 5px; }';
+    html += '#LeftDiv { left: 50px; }';
     html += '#RightDiv { right: 5px; }';
     html += '.duilian_close { margin: 2px; padding: 10px 5px 2px 2px ; position: absolute; top: 0; right: 0; }';
     html += '.duilian_close a { color: #ff0000; text-decoration: none; font-weight:bold; font-size: 12px; }';
