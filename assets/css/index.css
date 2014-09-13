@@ -65,14 +65,14 @@ img {
 }
 
 .mian {
-    width: 980px;
+    width: 1100px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 
 .mainbj {
     background-position: center top;
-    width: 980px;
+    width: 1100px;
     margin: 0 auto;
     padding-left: 14px;
     padding-right: 14px;
@@ -370,7 +370,7 @@ img {
 }
 
 .Topimg {
-    width: 980px;
+    width: 1100px;
     margin: 0 auto;
     height: 101px;
     position: relative;
@@ -410,6 +410,7 @@ img {
 
 .menub2 {
     height: 47px;
+    padding-left: 200px;
 }
 
 .menub2 ul {
@@ -435,8 +436,9 @@ img {
 }
 
 #ctl00_hrLi_1 {
-    float: right;
-    margin-right: 45px;
+    /*float: right;*/
+    padding-left: 600px;
+    /*margin-right: 45px;*/
 }
 
 #ctl00_csrLi_1 {
@@ -1238,7 +1240,7 @@ img {
 
 #focus .btn {
     position: absolute;
-    width: 980px;
+    width: 1100px;
     height: 40px;
     overflow: hidden;
     bottom: 0;
@@ -1346,7 +1348,7 @@ img {
 
 #focus1 .btn {
     position: absolute;
-    width: 980px;
+    width: 1100px;
     height: 40px;
     overflow: hidden;
     bottom: 0;
@@ -1415,7 +1417,7 @@ img {
 }
 
 .brtn {
-    width: 980px;
+    width: 1100px;
     left: 50%;
     bottom: 56px;
     height: 6px;
@@ -1457,7 +1459,7 @@ img {
     left: 50%;
     z-index: 999;
     margin-top: -50px;
-    margin-left: -490px;
+    margin-left: -550px;
 }
 
 .Ii_list {
@@ -1489,7 +1491,8 @@ img {
 .Ii_on {
     float: left;
     width: 231px;
-    margin-right: 8px;
+    margin-left: 18px;
+    margin-right: 18px;
     border: 1px solid #e0dbd1;
 }
 
@@ -1526,7 +1529,7 @@ img {
 }
 
 .FGS {
-    width: 980px;
+    width: 1100px;
     margin: 0 auto;
     background: url('../images/index/fgs_bj.png') no-repeat top left;
     background-color: #f0ece4;
@@ -1618,7 +1621,7 @@ img {
 
 .imt_left {
     float: left;
-    width: 329px;
+    width: 340px;
     overflow: hidden;
     height: 181px;
 }
@@ -1967,4 +1970,30 @@ img {
 .btn ul li.hover {
     background: url('../images/index/next.png') no-repeat center center;
     background-color: #c3ad7d;
+}
+
+.gsmh_bg {
+    background: #000 url('../images/background2.jpg') repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.img_effect {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s
+}
+
+.img_effect :hover {
+    -webkit-transform: scale(1.20);
+    transform: scale(1.20);
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, .5);
+}
+
+#flashDD{
+    margin-right: 100px;
 }

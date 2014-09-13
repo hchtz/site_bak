@@ -110,7 +110,7 @@ function goTemplate(name) {
     if (html == '' || html == '#') {
 //        window.location.go(-1);
 //        $("#contentDiv").attr('src', 'error.html');
-        return ;
+        return;
     }
     else {
         var mainHtml = '<div id="mainDiv"><div class="Topimg"> <img src="{topimg}"> </div>';
@@ -297,14 +297,14 @@ var ddTime = 6000;
 var ddSeti;
 
 function showFlashImg(n, name, img, i) {
-    var imgDiv = $("#flashImg").fadeOut(888);
+    var imgDiv = $("#flashImg").hide();
     imgDiv.attr(
         {
             "src": img,
             "title": name
         }
     );
-    imgDiv.fadeIn(1888);
+    imgDiv.show();
     $(n).siblings().css("background", "grey").end().css("background", "red");
     clearInterval(ddSeti);
     ddJishu = i;
@@ -334,7 +334,7 @@ $(function () {
     html += '<h3 class="no"> <a href="javascript:goTemplate(\'{imTop.left.gotoo}\');"> <img src="assets/images/im.png"/> {imTop.left.name}</a></h3>';
     html += '</div>';
     html += '<ul>';
-    html += '<li class="img"><a href="javascript:goTemplate(\'{imTop.left.gotoo}\');"><img src="{imTop.left.img}"></a></li>';
+    html += '<li class="img "><a class="" href="javascript:goTemplate(\'{imTop.left.gotoo}\');"><img class="img_effect" src="{imTop.left.img}"></a></li>';
     html += '</ul>';
     html += '</div>';
     html += '<div class="imt_in">';
@@ -342,7 +342,7 @@ $(function () {
     html += '<h3 class="no"> <a href="javascript:goTemplate(\'{imTop.center.gotoo}\');"> <img src="assets/images/im.png"/> {imTop.center.name}</a></h3>';
     html += '</div>';
     html += '<ul>';
-    html += '<li class="img"><a href="javascript:goTemplate(\'{imTop.center.gotoo}\');"><img src="{imTop.center.img}"></a></li>';
+    html += '<li class="img "><a class="" href="javascript:goTemplate(\'{imTop.center.gotoo}\');"><img  class="img_effect" src="{imTop.center.img}"></a></li>';
     html += '</ul>';
     html += '</div>';
     html += '<div class="imt_right">';
@@ -350,7 +350,7 @@ $(function () {
     html += '<h3 class="no"> <a href="javascript:goTemplate(\'{imTop.right.gotoo}\');"> <img src="assets/images/im.png"/> {imTop.right.name}</a></h3>';
     html += '</div>';
     html += '<ul>';
-    html += '<li class="img"><a href="javascript:goTemplate(\'{imTop.right.gotoo}\');"><img src="{imTop.right.img}"></a></li>';
+    html += '<li class="img "><a class="" href="javascript:goTemplate(\'{imTop.right.gotoo}\');"><img  class="img_effect" src="{imTop.right.img}"></a></li>';
     html += '</ul>';
     html += '</div>';
     var h = nano(html, shouye_data);
@@ -360,7 +360,7 @@ $(function () {
     html += '<div class="Ii_on"> <a href="javascript:goTemplate(\'{imBottom.one.gotoo}\');"> <img src="{imBottom.one.img}"></a></div>';
     html += '<div class="Ii_on"> <a href="javascript:goTemplate(\'{imBottom.two.gotoo}\');"> <img src="{imBottom.two.img}"></a></div>';
     html += '<div class="Ii_on"> <a href="javascript:goTemplate(\'{imBottom.three.gotoo}\');"> <img src="{imBottom.three.img}"></a></div>';
-    html += '<div class="Ii_right"> <a href="javascript:goTemplate(\'{imBottom.four.gotoo}\');"> <img src="{imBottom.four.img}"></a></div>';
+    html += '<div class="Ii_on"> <a href="javascript:goTemplate(\'{imBottom.four.gotoo}\');"> <img src="{imBottom.four.img}"></a></div>';
     var h = nano(html, shouye_data);
     $("#imbDiv").append(h);
     //浮动广告
