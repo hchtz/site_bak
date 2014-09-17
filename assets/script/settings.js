@@ -29,41 +29,11 @@ var daohang_data = [
                 img: {
                     topimg: 'assets/images/topimg.png',
                     titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
+                    leftimg: 'assets/images/pages/gsxw/dzwm/paizi.jpg',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: 'tuji_ygfc.html',
-                name: '员工风采（图集）'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: 'tuji_ymq.html',
-                name: '羽毛球比赛（图集）'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: 'tuji_heying.html',
-                name: '团队合影（图集）'
-            },
-            {
-                img: {
-                    topimg: 'assets/images/topimg.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/pages/gsgk/hchmq.jpg',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                name: '交响音乐会(新闻)',
-                html: 'gsxw_music.html'
+                name: '公司新闻',
+                html: 'gsxw.html'
             },
             {
                 img: {
@@ -72,8 +42,18 @@ var daohang_data = [
                     leftimg: 'assets/images/pages/gsxw/dzwm/paizi.jpg',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                name: '抵制雾霾行动（新闻）',
-                html: 'gsxw_wumai.html'
+                name: '员工风采',
+                html: 'ygfc.html'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/pages/gsxw/dzwm/paizi.jpg',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                name: '商业活动',
+                html: 'syhd.html'
             }
         ]
     },
@@ -90,7 +70,17 @@ var daohang_data = [
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
                 html: 'mdgc_desc.html',
-                name: '麦岛广场简介'
+                name: '简介'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'zsxx.html',
+                name: '招商信息'
             }
         ]
     },
@@ -262,7 +252,7 @@ var shouye_data = {
             /*标题，将会显示在图片上面，此标题可以与gotoo属性一致*/
             img: 'assets/images/shouye/project/mdgc.jpg',
             /*自定义图片*/
-            gotoo: '麦岛广场简介' /*指定daohang_data中的某一个name属性的值*/
+            gotoo: '简介' /*指定daohang_data中的某一个name属性的值*/
         },
         center: {
             name: '富春江置业',
