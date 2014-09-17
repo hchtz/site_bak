@@ -1973,7 +1973,7 @@ img {
 }
 
 .gsmh_bg {
-    background: #000 url("../images/bg.jpg") repeat center center;
+    background: #000 url("../images/bg.gif") repeat center center;
     /*background-repeat: repeat-y;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
