@@ -190,7 +190,7 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: '#',
+                html: 'shzp.html',
                 name: '社会招聘'
             }
         ]
