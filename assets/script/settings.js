@@ -116,8 +116,28 @@ var daohang_data = [
                     leftimg: 'assets/images/leftimg.png',
                     rightimg: 'assets/images/right_Cont_img.jpg'
                 },
-                html: '#',
+                html: 'chwy_gsjj.html',
                 name: '川化物业子公司'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'chwy_qywh.html',
+                name: '企业文化'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'chwy_fwbz.html',
+                name: '物业服务标准'
             }
         ]
     },
