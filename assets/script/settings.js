@@ -54,6 +54,16 @@ var daohang_data = [
                 },
                 name: '商业活动',
                 html: 'syhd.html'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/pages/gsxw/dzwm/paizi.jpg',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                name: '联络恒川海',
+                html: 'llhch.html'
             }
         ]
     },
@@ -154,13 +164,6 @@ var daohang_data = [
                 name: '社会招聘'
             }
         ]
-    },
-    {
-        id: 'ctl00_contactLi',
-        name: '联络恒川海',
-        html: '#',
-        /*跨域了，不可以额*/
-        items: []
     }
 ];
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------下面是首页配置
