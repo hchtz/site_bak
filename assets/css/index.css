@@ -1,7 +1,7 @@
-﻿﻿body {
+﻿body {
     margin: 0;
     padding: 0;
-    background: url(../images/bg.jpg) repeat-x;
+    background: url("../images/background2.jpg") repeat-x;
     background-color: #efe5cb;
     padding-bottom: 40px;
 }
@@ -26,12 +26,6 @@ img {
     font-size: 12px;
     font-family: arial, sans-serif;
     color: #947458;
-}
-
-@font-face {
-    font-family: 'miso-bold';
-    src: url('font/miso-bold.eot');
-    src: local('miso-bold'), url('font/miso-bold_0.ttf');
 }
 
 .num {
@@ -76,7 +70,7 @@ img {
     margin: 0 auto;
     padding-left: 14px;
     padding-right: 14px;
-    background: url(../images/main_bj.png) repeat-x;
+    background: url("../images/main_bj.png") repeat-x;
     border-radius: 1px;
     behavior: url(js/PIEe.htc);
 }
@@ -1994,6 +1988,6 @@ img {
     box-shadow: 0px 0px 18px rgba(0, 0, 0, .5);
 }
 
-#flashDD{
+#flashDD {
     margin-right: 100px;
 }
