@@ -138,6 +138,16 @@ var daohang_data = [
                 },
                 html: 'chwy_fwbz.html',
                 name: '物业服务标准'
+            },
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'chwy_zgxm.html',
+                name: '在管项目'
             }
         ]
     },
