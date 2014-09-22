@@ -2006,3 +2006,34 @@ img {
 #flashDD {
     margin-right: 100px;
 }
+
+.duilian {
+    position: fixed; /*border: 1px solid #336699; background-color: #EEEEE2;*/
+    z-index: 999999999;
+    width: 163px;
+    height: 200px;
+    top: 100px;
+}
+
+#LeftDiv {
+    left: 50px;
+}
+
+#RightDiv {
+    right: 5px;
+}
+
+.duilian_close {
+    margin: 2px;
+    padding: 10px 5px 2px 2px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.duilian_close a {
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
