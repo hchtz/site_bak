@@ -1,15 +1,26 @@
 var version = navigator.userAgent;
 
-function simplePreload() {
-    var args = simplePreload.arguments;
-    document.imageArray = new Array(args.length);
-    for (var i = 0; i < args.length; i++) {
-        document.imageArray[i] = new Image;
-        document.imageArray[i].src = args[i];
+function preloadimages(arr) {
+    var newimages = [];
+    var arr = (typeof arr != "object") ? [arr] : arr;  //确保参数总是数组
+    for (var i = 0; i < arr.length; i++) {
+        newimages[i] = new Image();
+        newimages[i].src = arr[i];
     }
 }
 
-simplePreload('01.gif', '02.gif');
+preloadimages(['assets/images/20130503010101.jpg', 'assets/images/background.jpg', 'assets/images/background2.jpg', 'assets/images/bg.gif', 'assets/images/im.png', 'assets/images/index_01.jpg', 'assets/images/index_02.jpg', 'assets/images/index_03.jpg', 'assets/images/index_04.jpg', 'assets/images/leftimg.png', 'assets/images/li84.png', 'assets/images/logo.gif', 'assets/images/logo.png', 'assets/images/logo2.png', 'assets/images/menu/menu2li_bj.png', 'assets/images/menu/meun2_bj.jpg', 'assets/images/menu/news/li84.png', 'assets/images/menubj.png', 'assets/images/pages/chwy/gsjj.jpg', 'assets/images/pages/fcjzy/ctzg.jpg', 'assets/images/pages/fcjzy/dzkjsc.jpg', 'assets/images/pages/fcjzy/fcj_fm.jpg', 'assets/images/pages/fcjzy/fcj_zm.jpg', 'assets/images/pages/fcjzy/lqjtj.jpg', 'assets/images/pages/fcjzy/yjhy.jpg', 'assets/images/pages/gsgk/hchmq.jpg', 'assets/images/pages/gsgk/logo.jpg', 'assets/images/pages/gsgk/mdgctext.jpg', 'assets/images/pages/gsxw/dzwm/paizi.jpg', 'assets/images/pages/gsxw/dzwm/paizi2.jpg', 'assets/images/pages/gsxw/dzwm/paobu.jpg', 'assets/images/pages/gsxw/dzwm/paobu2.jpg', 'assets/images/pages/gsxw/dzwm/renqun.jpg', 'assets/images/pages/gsxw/music.jpg', 'assets/images/pages/hbhg/topbar.png', 'assets/images/pages/mdgc/ditu.png', 'assets/images/pages/mdgc/mdgcpmbjt.jpg', 'assets/images/pages/ygfc/gere/caolian.jpg', 'assets/images/pages/ygfc/gere/gcwx.jpg', 'assets/images/pages/ygfc/gere/IMG_3813.jpg', 'assets/images/pages/ygfc/gere/IMG_3890.jpg', 'assets/images/pages/ygfc/gere/junzi.jpg', 'assets/images/pages/ygfc/gere/monitor.jpg', 'assets/images/pages/ygfc/heying/CSC_0775.jpg', 'assets/images/pages/ygfc/heying/DSC_0742.jpg', 'assets/images/pages/ygfc/heying/DSC_0744.jpg', 'assets/images/pages/ygfc/heying/DSC_0745.jpg', 'assets/images/pages/ygfc/heying/DSC_0748.jpg', 'assets/images/pages/ygfc/ymq/DSC_0663.jpg', 'assets/images/pages/ygfc/ymq/DSC_0664.jpg', 'assets/images/pages/ygfc/ymq/DSC_0667.jpg', 'assets/images/pages/ygfc/ymq/DSC_0668.jpg', 'assets/images/pages/ygfc/ymq/DSC_0669.jpg', 'assets/images/pages/ygfc/ymq/DSC_0670.jpg', 'assets/images/pages/ygfc/ymq/DSC_0671.jpg', 'assets/images/pages/ygfc/ymq/DSC_0672.jpg', 'assets/images/pages/ygfc/ymq/DSC_0673.jpg', 'assets/images/pages/ygfc/ymq/DSC_0674.jpg', 'assets/images/pages/ygfc/ymq/DSC_0676.jpg', 'assets/images/pages/ygfc/ymq/DSC_0677.jpg', 'assets/images/pages/ygfc/ymq/DSC_0680.jpg', 'assets/images/pages/ygfc/ymq/DSC_0681.jpg', 'assets/images/pages/ygfc/ymq/DSC_0683.jpg', 'assets/images/pages/ygfc/ymq/DSC_0684.jpg', 'assets/images/pages/ygfc/ymq/DSC_0685.jpg', 'assets/images/pages/ygfc/ymq/DSC_0686.jpg', 'assets/images/pages/ygfc/ymq/DSC_0687.jpg', 'assets/images/pages/ygfc/ymq/DSC_0688.jpg', 'assets/images/pages/ygfc/ymq/DSC_0689.jpg', 'assets/images/pages/ygfc/ymq/DSC_0690.jpg', 'assets/images/pages/ygfc/ymq/DSC_0691.jpg', 'assets/images/pages/ygfc/ymq/DSC_0692.jpg', 'assets/images/pages/ygfc/ymq/DSC_0693.jpg', 'assets/images/pages/ygfc/ymq/DSC_0695.jpg', 'assets/images/pages/ygfc/ymq/DSC_0696.jpg', 'assets/images/pages/ygfc/ymq/DSC_0697.jpg', 'assets/images/pages/ygfc/ymq/DSC_0698.jpg', 'assets/images/pages/ygfc/ymq/DSC_0702.jpg', 'assets/images/pages/ygfc/ymq/DSC_0706.jpg', 'assets/images/pages/ygfc/ymq/DSC_0707.jpg', 'assets/images/pages/ygfc/ymq/DSC_0716.jpg', 'assets/images/pages/ygfc/ymq/DSC_0717.jpg', 'assets/images/pages/ygfc/ymq/DSC_0718.jpg', 'assets/images/pages/ygfc/ymq/DSC_0719.jpg', 'assets/images/pages/ygfc/ymq/DSC_0720.jpg', 'assets/images/pages/ygfc/ymq/DSC_0722.jpg', 'assets/images/pages/ygfc/ymq/DSC_0731.jpg', 'assets/images/pages/ygfc/ymq/DSC_0734.jpg', 'assets/images/pages/ygfc/ymq/DSC_0735.jpg', 'assets/images/pages/ygfc/ymq/DSC_0737.jpg', 'assets/images/pages/ygfc/ymq/DSC_0738.jpg', 'assets/images/pages/ygfc/ymq/DSC_0739.jpg', 'assets/images/right_Cont_img.jpg', 'assets/images/shouye/project/fcjzy.jpg', 'assets/images/shouye/project/mdgc.jpg', 'assets/images/shouye/project/schbhg.jpg', 'assets/images/shouye/tu/1.jpg', 'assets/images/shouye/tu/10.jpg', 'assets/images/shouye/tu/11.jpg', 'assets/images/shouye/tu/12.jpg', 'assets/images/shouye/tu/13.jpg', 'assets/images/shouye/tu/14.jpg', 'assets/images/shouye/tu/15.jpg', 'assets/images/shouye/tu/16.jpg', 'assets/images/shouye/tu/17.jpg', 'assets/images/shouye/tu/18.jpg', 'assets/images/shouye/tu/19.jpg', 'assets/images/shouye/tu/2.jpg', 'assets/images/shouye/tu/3.jpg', 'assets/images/shouye/tu/4.jpg', 'assets/images/shouye/tu/5.jpg', 'assets/images/shouye/tu/6.jpg', 'assets/images/shouye/tu/7.jpg', 'assets/images/shouye/tu/8.jpg', 'assets/images/shouye/tu/9.jpg', 'assets/images/shouye/wb2wm.png', 'assets/images/shouye/wx2wm.jpg', 'assets/images/title.png', 'assets/images/topimg.png', 'assets/images/topimg2.png', 'assets/images/top_03.jpg']);
+
+//function simplePreload() {
+//    var args = simplePreload.arguments;
+//    document.imageArray = new Array(args.length);
+//    for (var i = 0; i < args.length; i++) {
+//        document.imageArray[i] = new Image;
+//        document.imageArray[i].src = args[i];
+//    }
+//}
+//
+//simplePreload('01.gif', '02.gif');
 
 function writeCookie(name, value, hours) {
     var expire = "";
@@ -64,10 +75,10 @@ function goTemplateP(name) {
     if (html == '' || html == '#') {
 //        window.location.reLoad();
         return false;
-    } else if(html.indexOf('http://')!=-1){
+    } else if (html.indexOf('http://') != -1) {
 //        window.location.href = html;
         window.open(html);
-    }else {
+    } else {
         $("#mainDiv").load(html);
     }
 }
