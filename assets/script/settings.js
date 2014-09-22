@@ -154,18 +154,18 @@ var daohang_data = [
     {
         id: 'ctl00_businessLi3',
         name: '海滨化工',
-        html: '#',
+        html: 'http://www.zghbhg.com',
         items: [
-            {
-                img: {
-                    topimg: 'assets/images/pages/hbhg/topbar.png',
-                    titleimg: 'assets/images/title.png',
-                    leftimg: 'assets/images/leftimg.png',
-                    rightimg: 'assets/images/right_Cont_img.jpg'
-                },
-                html: 'schbhg_desc.html',
-                name: '海滨化工简介'
-            }
+//            {
+//                img: {
+//                    topimg: 'assets/images/pages/hbhg/topbar.png',
+//                    titleimg: 'assets/images/title.png',
+//                    leftimg: 'assets/images/leftimg.png',
+//                    rightimg: 'assets/images/right_Cont_img.jpg'
+//                },
+//                html: 'schbhg_desc.html',
+//                name: '海滨化工简介'
+//            }
         ]
     },
     {

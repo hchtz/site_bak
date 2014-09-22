@@ -64,7 +64,10 @@ function goTemplateP(name) {
     if (html == '' || html == '#') {
 //        window.location.reLoad();
         return false;
-    } else {
+    } else if(html.indexOf('http://')!=-1){
+//        window.location.href = html;
+        window.open(html);
+    }else {
         $("#mainDiv").load(html);
     }
 }
