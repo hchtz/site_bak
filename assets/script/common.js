@@ -63,6 +63,11 @@ function nano(template, data) {
  顶级菜单点击事件
  */
 function goTemplateP(name) {
+    if (html.indexOf('http://') != -1) {
+//        window.location.href = html;
+        window.open(html);
+        return false;
+    }
     var data = daohang_data;
     var html = 'error.html';
     for (var i = 0; i < data.length; i++) {
@@ -75,9 +80,6 @@ function goTemplateP(name) {
     if (html == '' || html == '#') {
 //        window.location.reLoad();
         return false;
-    } else if (html.indexOf('http://') != -1) {
-//        window.location.href = html;
-        window.open(html);
     } else {
         $("#mainDiv").load(html);
     }
@@ -85,6 +87,11 @@ function goTemplateP(name) {
 
 /* 子菜单的点击事件：生成html根据模板 */
 function goTemplate(name) {
+    if (html.indexOf('http://') != -1) {
+//        window.location.href = html;
+        window.open(html);
+        return false;
+    }
     var html = '#';
 
     var img = {};
