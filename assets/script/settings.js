@@ -295,7 +295,7 @@ var shouye_data = {
         right: {
             name: '海滨化工',
             img: 'assets/images/shouye/project/schbhg.jpg',
-            gotoo: '海滨化工'
+            gotoo: 'http://www.zghbhg.com'
         }
     },
     imBottom: {
