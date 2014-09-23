@@ -194,6 +194,24 @@ var daohang_data = [
                 name: '社会招聘'
             }
         ]
+    },
+    {
+        id: 'hideall',
+        name: '版权',
+        html: '#',
+        hidden: true,
+        items: [
+            {
+                img: {
+                    topimg: 'assets/images/topimg.png',
+                    titleimg: 'assets/images/title.png',
+                    leftimg: 'assets/images/leftimg.png',
+                    rightimg: 'assets/images/right_Cont_img.jpg'
+                },
+                html: 'flsm.html',
+                name: '法律声明'
+            }
+        ]
     }
 ];
 //-------------------------------------------------------------------------------------------------------------------------------------------------------------------------下面是首页配置
@@ -302,7 +320,7 @@ var shouye_data = {
         /*最后一行图片和链接配置*/
         one: {
             img: 'assets/images/index_01.jpg',
-            gotoo: '#'
+            gotoo: '企业文化'
         },
         two: {
             img: 'assets/images/index_02.jpg',
@@ -319,7 +337,7 @@ var shouye_data = {
     },
     fdgg: {
         /*暂时支持一个图片广告*/
-        gotoo: '',
+        gotoo: '招商信息',
         /*指定daohang_data中的某一个name属性的值*/
         download: '',
         /*用户点击广告图片后，下载的文件的相对路径*/
@@ -337,7 +355,7 @@ var shouye_data = {
             },
             {
                 name: '联络我们',
-                gotoo: '联络我们'
+                gotoo: '联络恒川海'
             }
         ]
     }

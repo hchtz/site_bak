@@ -88,13 +88,12 @@ function goTemplate(name) {
     if (name.indexOf('http://') != -1) {
 //        window.location.href = html;
         window.open(name);
-        return ;
+        return;
     }
-    var html = '#';
 
+    var html = '#';
     var img = {};
-    var shuju =
-    {
+    var shuju = {
         dh: []
     };
     //解析settings json配置对象
@@ -242,7 +241,7 @@ $(function () {
                 if (dd.name == '首页') {
                     menu_parent += '<li id="{id}"><a style="color:#947458" href="' + dd.html + '">' + dd.name + '</a></li>';
                 }
-                else {
+                else if (!dd.hidden) {
                     menu_parent += nano(menu_parent_template, dd);
                 }
                 var len = dd.items.length;
@@ -393,7 +392,7 @@ $(function () {
     html += '.duilian_close a { color: #ff0000; text-decoration: none; font-weight:bold; font-size: 12px; }';
     html += '</style>';
     html += '<div id="LeftDiv" class="duilian">';
-    html += '<div align="center"> <a href="#" gotoo="{fdgg.gotoo}" download="{fdgg.download}" target="_blank"> <img src="{fdgg.img}" border="0"></a></div>';
+    html += '<div align="center"> <a href="javascript:goTemplate(\'{fdgg.gotoo}\');" download="{fdgg.download}" target="_blank"> <img src="{fdgg.img}" border="0"></a></div>';
     html += '</div>';
     html += '<!--漂浮广告 and-->';
     var h = nano(html, shouye_data);
@@ -413,6 +412,23 @@ $(function () {
     html += '</li>';
     html += '</ul>';
     $("#footerDiv").append(html);
+});
 
 
+$(function () {
+    /**
+     * 回到顶部按钮
+     */
+    var topBtn = $('#topBtn');
+    $(document).scroll(function () {
+        ($(this).scrollTop() >= document.documentElement.clientHeight) ? topBtn.fadeIn(1000) : topBtn.fadeOut(1000);
+    });
+    topBtn.click(function () {
+        var doc = $(document);
+        var timerInterval = setInterval(function () {
+            var v = doc.scrollTop();
+            doc.scrollTop(v + Math.floor(-v / 9));
+            if (v <= 0)  clearInterval(timerInterval);
+        }, 30);
+    });
 });
