@@ -87,9 +87,9 @@ function goTemplateP(name) {
 
 /* 子菜单的点击事件：生成html根据模板 */
 function goTemplate(name) {
-    if (html.indexOf('http://') != -1) {
+    if (name.indexOf('http://') != -1) {
 //        window.location.href = html;
-        window.open(html);
+        window.open(name);
         return false;
     }
     var html = '#';
