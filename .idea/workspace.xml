@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0b1543-0287-4f29-b795-430ac8e142b7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/caolian.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/caolian.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/junzi.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/ygfc/gere/junzi.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/gsxw/music.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/gsxw/music.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paizi2.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paizi2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paobu.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paobu.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paobu2.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/paobu2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/renqun.jpg" afterPath="$PROJECT_DIR$/assets/images/pages/gsxw/dzwm/renqun.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/settings.js" afterPath="$PROJECT_DIR$/assets/script/settings.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="bac0328d-b6ff-4063-b624-33747b7b4f78" name="New changelist" comment="" />
@@ -37,8 +29,8 @@
       <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53608245" vertical-offset="2977" max-vertical-offset="8050">
-              <caret line="143" column="54" selection-start-line="143" selection-start-column="54" selection-end-line="143" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.660177" vertical-offset="4227" max-vertical-offset="8050">
+              <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -437,14 +429,20 @@
       <created>1411376672185</created>
       <updated>1411376672185</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="压缩图片+海滨化工外链">
+      <created>1411440644437</created>
+      <updated>1411440644437</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -453,13 +451,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3109151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3109151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -516,7 +512,8 @@
     <MESSAGE value="海滨化工编辑" />
     <MESSAGE value="地址错误修复" />
     <MESSAGE value="压缩图片大小" />
-    <option name="LAST_COMMIT_MESSAGE" value="压缩图片大小" />
+    <MESSAGE value="压缩图片+海滨化工外链" />
+    <option name="LAST_COMMIT_MESSAGE" value="压缩图片+海滨化工外链" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -857,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53608245" vertical-offset="2977" max-vertical-offset="8050">
-          <caret line="143" column="54" selection-start-line="143" selection-start-column="54" selection-end-line="143" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.660177" vertical-offset="4227" max-vertical-offset="8050">
+          <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
           <folding />
         </state>
       </provider>
