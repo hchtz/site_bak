@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f0b1543-0287-4f29-b795-430ac8e142b7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/script/settings.min.js" afterPath="$PROJECT_DIR$/assets/script/settings.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="bac0328d-b6ff-4063-b624-33747b7b4f78" name="New changelist" comment="" />
@@ -29,8 +30,8 @@
       <file leaf-file-name="settings.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.660177" vertical-offset="4227" max-vertical-offset="8050">
-              <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.4159292" vertical-offset="4227" max-vertical-offset="8050">
+              <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -164,7 +165,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="script" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +434,11 @@
       <created>1411440644437</created>
       <updated>1411440644437</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="压缩图片+海滨化工外链">
+      <created>1411440769800</created>
+      <updated>1411440769800</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -854,8 +859,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/settings.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.660177" vertical-offset="4227" max-vertical-offset="8050">
-          <caret line="200" column="34" selection-start-line="200" selection-start-column="34" selection-end-line="200" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.4159292" vertical-offset="4227" max-vertical-offset="8050">
+          <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
           <folding />
         </state>
       </provider>
