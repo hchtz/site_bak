@@ -324,7 +324,7 @@ var shouye_data = {
         },
         two: {
             img: 'assets/images/index_02.jpg',
-            gotoo: '人才理念'
+            gotoo: '社会照招聘'
         },
         three: {
             img: 'assets/images/index_03.jpg',
@@ -332,7 +332,7 @@ var shouye_data = {
         },
         four: {
             img: 'assets/images/index_04.jpg',
-            gotoo: '#'
+            gotoo: '联络我们'
         }
     },
     fdgg: {
