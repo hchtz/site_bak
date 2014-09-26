@@ -428,19 +428,19 @@ img {
     float: right;
 }
 
-#ctl00_aboutLi_1{
+#ctl00_aboutLi_1 {
     padding-left: 200px;
 }
 
-#ctl00_businessLi1_1{
+#ctl00_businessLi1_1 {
     padding-left: 470px;
 }
 
-#ctl00_businessLi2_1{
+#ctl00_businessLi2_1 {
     padding-left: 330px;
 }
 
-#ctl00_businessLi3_1{
+#ctl00_businessLi3_1 {
     padding-left: 650px;
 }
 
@@ -2036,4 +2036,39 @@ img {
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
+}
+
+/*首页图片工具提示*/
+.iframeTooltip {
+    position: absolute;
+    z-index: 1010;
+    filter: alpha(opacity:0.1);
+}
+
+.tooltipContent {
+    background-color: #FFFFCC;
+}
+
+.hover2 {
+    color: #FF7F50;
+}
+
+.leftMenuHover:hover {
+    background-color: #FCF6CF;
+}
+
+/*回到顶部按钮*/
+#topBtn {
+    width: 49px;
+    height: 49px;
+    position: fixed;
+    left: 50%;
+    bottom: 80px;
+    margin-left: 565px;
+    background-image: url("../images/top.png");
+    display: none;
+}
+
+#topBtn:hover{
+    background-position: 48px;
 }

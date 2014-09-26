@@ -12,30 +12,10 @@
     <meta name="copyright" content="青岛恒川海创业投资有限公司"/>
     <link href="assets/logo.ico" rel="shortcut icon" type="image/x-icon"/>
     <link href="assets/css/index.min.css" rel="stylesheet" type="text/css"/>
-    <style type="text/css">
-        .iframeTooltip
-        {
-            position: absolute;
-            z-index: 1010;
-            filter:alpha(opacity:0.1);
-        }
-
-        .tooltipContent
-        {
-            background-color: #FFFFCC;
-        }
-        .hover2 {
-            color: #FF7F50;
-        }
-
-        .leftMenuHover:hover {
-            background-color: #FCF6CF;
-        }
-    </style>
-    <script src="assets/script/settings.min.js" type="text/javascript"></script>
     <script src="assets/script/jquery.min.js" type="text/javascript"></script>
-    <script src="assets/script/common.min.js" type="text/javascript"></script>
     <script src="assets/spry/SpryTooltip.min.js" type="text/javascript"></script>
+    <script src="assets/script/settings.min.js" type="text/javascript"></script>
+    <script src="assets/script/common.min.js" type="text/javascript"></script>
 </head>
 <body class="indexbj gsmh_bg">
 <!--公用顶部 start-->
@@ -80,6 +60,7 @@
         </div>
     </div>
 </div>
+<a href="javascript:;" id="topBtn" title="回到顶部"></a>
 <div class="tooltipContent" id="sprytooltip1">切换图片</div>
 <script type="text/javascript">
     var sprytooltip1 = new Spry.Widget.Tooltip("sprytooltip1", "#flashDD");
